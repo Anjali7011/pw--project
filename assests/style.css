@@ -1,0 +1,77 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    height: 100vh;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    /* text-transform: uppercase; */
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+    color: #ffff00;
+  }
+ .logo{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  ul{
+    position:absolute;
+    top:30px;
+    left:400px;
+    display: flex;
+    justify-content: center;
+
+column-gap: 50px;
+
+  }
+  li{
+    color: #e1ff00c9;
+    list-style: none;
+  }
+.order{
+  float: right;
+  margin-top: 30px;
+  margin-right: 100px;
+ background-color: red;
+  height: 40px;
+  width:100px;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 15px;
+  }
+  .order>a{
+    text-decoration: none;
+    color:aliceblue;
+
+  }
+  .menu{
+   
+position:absolute;
+bottom: 180px;
+margin-left: 600px;
+background-color: #ff0000cf;
+height: 40px;
+  width:150px; 
+  text-align: center;
+  padding-top: 10px;
+  }
+  .menu>a{
+    text-decoration: none;
+    color:aliceblue;
+  }
+  .scrool{
+    position:absolute;
+bottom: 0px;
+left:1100px
+  }
