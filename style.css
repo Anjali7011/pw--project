@@ -1,0 +1,170 @@
+*{
+    background-color: hsl(221, 39%, 11%);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+  display: flex;
+justify-content: end;
+gap:20px;
+color: aliceblue;   
+}
+li{
+  margin-top: 10px;
+  list-style: none;
+font-size: 20px;
+font-family: sans-serif;
+cursor: pointer;
+}
+.home{
+  background-color: #0000ffb1;
+ border-radius: 10px;
+}
+img[alt="errorloadingimage"]{
+width: 20px;
+display: none;
+}
+.conatiner{
+display: flex;
+justify-content: center;
+gap:100px;
+font-family: monospace;
+
+}
+.left{
+margin-top: 100px;
+}
+.left>img{
+  height: 70px;
+  width:70px; 
+ 
+}
+.text{
+margin-top: 50px;
+font-size: 20px;
+color: aliceblue;
+}
+.name{
+  margin-top: 0px;
+  color:aliceblue;
+  font-size: 40px;
+}
+.worksasa{
+  margin-top: 0px;
+  color:gold;
+  font-size: 40px;
+
+ 
+}
+.rightdivimg>img{
+height: 400px;
+width:400px;
+}
+.projects, .details{
+  margin-top: 20px;
+  margin-left: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+ 
+  font-size: 40px;
+  font-family: serif;
+  color: whitesmoke;
+}
+#container {
+display: grid;
+grid: repeat(2, 60px) / auto-flow 80px;
+gap: 200px 150px;
+
+justify-content: center;
+}
+
+
+#container > div >img{
+height: 200px;
+width:200px;
+
+}
+.pro{
+margin-left: 50px;
+font-size: 20px;
+color: aliceblue;
+
+}
+main{
+height: 500px;
+}
+.linkcontainer{
+margin-top: 50px;
+
+display:flex;
+justify-content: center;
+}
+.accountlinnk{
+margin-left: 50px;
+height: 30px;
+width:30px;
+}
+@media screen and (max-width:600px) {
+    ul{
+        display: none; 
+      }
+      img[alt="errorloadingimage"]{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 20px;
+        display: block;
+        }
+        .left{
+            margin-top: 100px;
+            margin-left: 100px;
+            }
+            .left>img{
+            padding-left: 10px;
+              height: 40px;
+              width:40px; 
+             
+            }
+            .name{
+             padding-left: 10px;
+                margin-top: 0px;
+                color:aliceblue;
+                font-size: 25px;
+              }
+              .worksasa{
+                padding-left: 10px;
+                margin-top: 0px;
+                color:gold;
+                font-size: 40px; 
+              }
+              .rightdivimg>img{
+                height: 200px;
+                width:200px;
+                }
+                #container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 0px;
+                    }
+                    
+                    
+                    #container > div >img{
+                    height: 100px;
+                    width:100px;
+                    
+                    }
+                    .pro{
+                       margin-left: 0px;
+                       text-align: center;
+                        font-size: 20px;
+                        color: aliceblue;
+                        
+                        }
+
+
+
+}
