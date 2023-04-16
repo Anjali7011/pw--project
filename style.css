@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+   
+
+}
+
+body{
+    background-color: #f0f4f5; 
+}
+nav{
+display:flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+nav img{
+padding-left: 100px;
+}
+ul{
+display:flex;
+margin-right: 100px;
+
+}
+li{
+list-style:none ;
+
+margin-right: 50px;
+}
+section{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+background-image: url(./assests/stethoscope.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+p{
+margin-top: 20px;
+}
+.makeappointment{
+padding: 20px;
+background-color: rgba(0, 128, 51, 0.754);
+width: fit-content;
+border-radius: 10px;
+color: #f0f4f5;
+}
+.bottomAngle{
+position: relative;
+left:550px;
+}
+
+.doctorimagecontainer{
+height: 500px;
+width:530px;
+/* background-color: aqua; */
+
+
+
+}
+.mouseimage{
+position: relative;
+top:20px;
+left:570px;
+}
+.greenboxlogo{
+height: 400px;
+width:500px;
+margin-top: 160px;
+margin-left: 100px;
+
+}
+.yellowbox{
+height: 400px;
+width:500px;
+z-index: 50;
+position: relative;
+top:-450px;
+left:150px;
+}
+.doctorimage{
+z-index: 100;
+position: absolute;
+top:80px;
+left:880px;
+height: 500px;
+width:380px;
+}
+a{
+color:black;
+text-decoration: none;
+}
